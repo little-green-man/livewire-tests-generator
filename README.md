@@ -8,10 +8,9 @@
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
-## Support            
+## Licence
 
 This package is [Treeware](https://treeware.earth). If you use it in production, then we ask that you [**buy the world a tree**](https://plant.treeware.earth/little-green-man/livewire-tests-generator) to thank us for our work. By contributing to the Treeware forest you’ll be creating employment for local families and restoring wildlife habitats.
-
 
 ## Installation
 

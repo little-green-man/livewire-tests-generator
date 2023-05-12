@@ -6,7 +6,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/little-green-man/livewire-tests-generator.svg?style=flat-square)](https://packagist.org/packages/little-green-man/livewire-tests-generator)
 [![Treeware](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Treeware&query=%24.total&url=https%3A%2F%2Fpublic.offset.earth%2Fusers%2Ftreeware%2Ftrees)](https://treeware.earth)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+Include this package to scaffold pest tests for your Livewire components. That's it! A literal one-trick pony.
 
 ## Licence
 
@@ -17,7 +17,7 @@ This package is [Treeware](https://treeware.earth). If you use it in production,
 You can install the package via composer:
 
 ```bash
-composer require little-green-man/livewire-tests-generator
+composer require little-green-man/livewire-tests-generator --dev
 ```
 
 You can publish the config file with:

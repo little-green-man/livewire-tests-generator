@@ -1,0 +1,6 @@
+it('can have attributes set', function () {
+    livewire({{class_name}})
+        {{attributes}}
+        ->assertSee(1);
+});
+

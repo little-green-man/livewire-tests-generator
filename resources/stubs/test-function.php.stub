@@ -1,0 +1,8 @@
+it('can be {{method_name}-ed', function () {
+    livewire({{class_name}})
+        {{attributes}}
+        ->call('{{method_name}}')
+        ->assertSee(1);
+});
+
+

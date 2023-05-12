@@ -4,16 +4,14 @@
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/little-green-man/livewire-tests-generator/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/little-green-man/livewire-tests-generator/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/little-green-man/livewire-tests-generator/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/little-green-man/livewire-tests-generator/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/little-green-man/livewire-tests-generator.svg?style=flat-square)](https://packagist.org/packages/little-green-man/livewire-tests-generator)
+[![Treeware](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Treeware&query=%24.total&url=https%3A%2F%2Fpublic.offset.earth%2Fusers%2Ftreeware%2Ftrees)](https://treeware.earth)
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
-## Support us
+## Support            
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/livewire-tests-generator.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/livewire-tests-generator)
+This package is [Treeware](https://treeware.earth). If you use it in production, then we ask that you [**buy the world a tree**](https://plant.treeware.earth/little-green-man/livewire-tests-generator) to thank us for our work. By contributing to the Treeware forest you’ll be creating employment for local families and restoring wildlife habitats.
 
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
 
 ## Installation
 
@@ -21,13 +19,6 @@ You can install the package via composer:
 
 ```bash
 composer require little-green-man/livewire-tests-generator
-```
-
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="livewire-tests-generator-migrations"
-php artisan migrate
 ```
 
 You can publish the config file with:
@@ -40,26 +31,14 @@ This is the contents of the published config file:
 
 ```php
 return [
+    'output-directory' => base_path('tests/Unit/Http/Livewire/'),
 ];
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="livewire-tests-generator-views"
 ```
 
 ## Usage
 
-```php
-$livewireTestsGenerator = new LittleGreenMan\LivewireTestsGenerator();
-echo $livewireTestsGenerator->echoPhrase('Hello, LittleGreenMan!');
-```
-
-## Testing
-
 ```bash
-composer test
+php artisan generate-livewire-tests
 ```
 
 ## Changelog
